@@ -1,0 +1,20 @@
+.user-msg {
+    position: fixed;
+    bottom: 40px;
+    left: 20px;
+
+    width: 290px;
+    background-color: rgb(208, 206, 139);
+    padding: 10px;
+    border-radius: 5px;
+    /* transition: opacity 1s; */
+}
+
+.success {
+    background-color: var( --clr4-5);
+    color: var(--clr1);
+}
+
+.error {
+    background-color: rgb(187, 104, 104);
+}

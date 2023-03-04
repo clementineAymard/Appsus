@@ -1,0 +1,32 @@
+.app-index .email-list {
+    border-radius: 10px;
+    background-color: var(--clr1);
+    height: calc(100vh - 64px);
+}
+
+.app-index .email-list .emails-sort {
+    height: 42px;
+    margin-inline:10px;
+    gap:10px
+}
+
+.app-index .email-list .emails-sort button {
+    border-radius:5px;
+    border:none;
+    background-color: var(--clr1);
+}
+
+.app-index .email-list .emails-sort button.selected {
+    border-radius:5px;
+    border:none;
+    background-color: var(--clrbg-btn1);
+}
+
+.app-index .email-list ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+
+    /* margin-block-start: 42px; */
+}

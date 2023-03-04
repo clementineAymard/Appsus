@@ -1,0 +1,22 @@
+:root {
+  --clr1: rgb(255, 255, 255);
+  --clr2: rgb(240, 240, 240);
+  --clr3: rgb(155, 155, 155);
+  --clr4: rgb(96, 96, 96);
+  --clr4-5: rgb(37 38 40);
+  --clr5: rgb(0, 0, 0);
+
+  --clrbg: rgb(246 248 251);
+  --clrbg-input: rgb(235 241 250);
+  --clrbg-folders: rgb(214 226 251);
+  --clrbg-compose: rgb(201 230 252);
+  --clrbg-border: rgb(226 231 237);
+  --clrbg-prev-read:rgb(226 231 237);
+  --clrbg-btn1: rgb(232 234 239);
+  --clrbg-btn2:rgb(242 242 241);
+  --clr-btn: rgb(19 77 218);
+
+  --secondary-clr1: rgb(88, 201, 58);
+  --secondary-clr2: rgb(122, 7, 70);
+
+}

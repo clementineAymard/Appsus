@@ -1,0 +1,58 @@
+/* .app-index .side-bar {} */
+.app-index .side-bar .compose-email-btn {
+    margin-inline-start: 10px;
+    width: 200px;
+    height: 50px;
+
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: rgb(201 230 252);
+    cursor: pointer;
+}
+
+.app-index .side-bar .compose-email-btn:hover {
+    box-shadow: 0px 0px 5px 0px var(--clr3);
+}
+
+.app-index .side-bar .compose-email-btn .icon-pencil {
+    height: 1rem;
+    object-fit: contain;
+    padding-inline: 20px;
+}
+
+.app-index .side-bar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-block-start: 14px;
+}
+
+.app-index .side-bar ul li {
+    height: 2rem;
+    padding-inline-start: 30px;
+    margin-inline-end: 30px;
+    font-size: 14px;
+    color: var(--clr5);
+    display: flex;
+    place-items: center;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+
+    cursor: pointer;
+}
+
+.app-index .side-bar ul li.selected {
+    background-color: var(--clrbg-folders);
+}
+
+.app-index .side-bar ul li img {
+    height: 14px;
+    object-fit: contain;
+    margin-inline-end: 20px;
+}
+
+.app-index .side-bar ul li:hover {
+    background-color: var(--clrbg-btn1);
+}
